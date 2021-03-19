@@ -1,2 +1,8 @@
 # ignore conan.io package test buildtree
 test_package/build
+bazel-bin
+bazel-out
+bazel-testlogs
+bazel-type_safe
+.clwb/
+

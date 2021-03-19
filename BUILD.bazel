@@ -1,0 +1,9 @@
+cc_library(
+    name = "type_safe",
+    srcs = [],
+    hdrs = glob([
+        "include/type_safe/*.hpp",
+        "include/type_safe/detail/*.hpp",
+    ]),
+    deps = [],
+)
